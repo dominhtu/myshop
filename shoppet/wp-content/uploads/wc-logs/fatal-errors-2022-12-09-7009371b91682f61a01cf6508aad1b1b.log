@@ -1,0 +1,62 @@
+2022-12-09T02:35:35+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php on line 102
+
+2022-12-09T03:02:03+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php:8
+Stack trace:
+#0 C:\xampp\htdocs\shoppet\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\shoppet\wp-content\themes\shop\sidebar.php(41): get_template_part('content/item_pr...')
+#4 C:\xampp\htdocs\shoppet\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php(12): get_sidebar()
+#8 C:\xampp\htdocs\shoppet\wp-includes\template-loader.php(106): include('C:\\xampp\\h in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php on line 8
+
+2022-12-09T03:02:22+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php:8
+Stack trace:
+#0 C:\xampp\htdocs\shoppet\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\shoppet\wp-content\themes\shop\sidebar.php(41): get_template_part('content/item_pr...')
+#4 C:\xampp\htdocs\shoppet\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php(12): get_sidebar()
+#8 C:\xampp\htdocs\shoppet\wp-includes\template-loader.php(106): include('C:\\xampp\\h in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php on line 8
+
+2022-12-09T03:06:01+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php:8
+Stack trace:
+#0 C:\xampp\htdocs\shoppet\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\shoppet\wp-content\themes\shop\sidebar.php(49): get_template_part('content/item_pr...')
+#4 C:\xampp\htdocs\shoppet\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php(12): get_sidebar()
+#8 C:\xampp\htdocs\shoppet\wp-includes\template-loader.php(106): include('C:\\xampp\\h in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php on line 8
+
+2022-12-09T03:06:42+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php:8
+Stack trace:
+#0 C:\xampp\htdocs\shoppet\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\shoppet\wp-content\themes\shop\sidebar.php(49): get_template_part('content/item_pr...')
+#4 C:\xampp\htdocs\shoppet\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php(12): get_sidebar()
+#8 C:\xampp\htdocs\shoppet\wp-includes\template-loader.php(106): include('C:\\xampp\\h in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php on line 8
+
+2022-12-09T03:06:59+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php:8
+Stack trace:
+#0 C:\xampp\htdocs\shoppet\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\shoppet\wp-content\themes\shop\sidebar.php(49): get_template_part('content/item_pr...')
+#4 C:\xampp\htdocs\shoppet\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php(12): get_sidebar()
+#8 C:\xampp\htdocs\shoppet\wp-includes\template-loader.php(106): include('C:\\xampp\\h in C:\xampp\htdocs\shoppet\wp-content\themes\shop\content\item_product.php on line 8
+

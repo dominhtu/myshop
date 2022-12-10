@@ -1,0 +1,12 @@
+2022-12-08T17:24:33+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_post_thumnail() in C:\xampp\htdocs\shoppet\wp-content\themes\shop\slider.php:17
+Stack trace:
+#0 C:\xampp\htdocs\shoppet\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\shoppet\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\shoppet\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\shoppet\wp-content\themes\shop\index.php(4): get_template_part('slider')
+#4 C:\xampp\htdocs\shoppet\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\shoppet\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\shoppet\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\shoppet\wp-content\themes\shop\slider.php on line 17
+
